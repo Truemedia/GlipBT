@@ -1,0 +1,3 @@
+[submodule "SourceGlipBT/glip"]
+	path = SourceGlipBT/glip
+	url = git@github.com:Truemedia/glip.git

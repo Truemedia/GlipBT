@@ -21,8 +21,8 @@ class SourceGlipBTPlugin extends MantisSourcePlugin {
 			'Meta' => '0.1',
 		);
 
-		$this->author = 'Wade';
-		$this->contact = 'Penistone';
+		$this->author = 'Wade Penistone';
+		$this->contact = '';
 		$this->url = 'http://mediacityonline.net';
 	}
 

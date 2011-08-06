@@ -1,0 +1,7 @@
+ABOUT
+
+GipBT is designed for two purposes. To allow MantisBT to display information on git repositories located on your server without the use of gitweb, 
+and use git functions without the command line.
+
+The solution to achieve this is having the git library but coded in php (glip) which is a project that has already being persued, 
+and a MantisBT plugin based on the original gitweb plugin but modified to suit this new method of working with less requirements.

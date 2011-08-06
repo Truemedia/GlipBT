@@ -5,3 +5,19 @@ and use git functions without the command line.
 
 The solution to achieve this is having the git library but coded in php (glip) which is a project that has already being persued, 
 and a MantisBT plugin based on the original gitweb plugin but modified to suit this new method of working with less requirements.
+
+INSTALLATION 
+In order for this plugin to function at all there are some plugins that are required to be already installed on your MantisBT site. The dependencies are:
+ 
+MantisBT Core 1.2.0
+Source Control Integration 0.16
+Meta Programming 0.1
+
+Which means you will need MantisBT version 1.2.0+ for the plugin to work, and also have Source Control Integration plugin version 0.16 or above installed which can be found here: 
+http://git.mantisforge.org/w/source-integration.git and the Meta Programming version 0.1 or above installed which can be found here: http://git.mantisforge.org/w/meta.git
+
+With those dependencies met you can install the plugin by locating to your mantisBT directory in an FTP client and navigating to the "plugins" folder and upload the unarchived folder 
+into that directory or upload the archive and unzip it once it is on your server. Once that is completed go to your web browser and your MantisBt site.
+
+On your MantisBT site click the link on the main menu called "manage" then on the page that loads up click "Manage plugins" on the second menu. 
+If you uploaded the plugin correctly you should be able to see the GlipBT plugin in the "Available plugins" section and you just need to click install and installation is complete.

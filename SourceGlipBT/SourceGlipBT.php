@@ -22,7 +22,7 @@ class SourceGlipBTPlugin extends MantisSourcePlugin {
 		);
 
 		$this->author = 'Wade Penistone';
-		$this->contact = '';
+		$this->contact = 'truemedia@mediacityonline.net';
 		$this->url = 'http://mediacityonline.net';
 	}
 
